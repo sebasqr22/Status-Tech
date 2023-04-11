@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router'
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +14,15 @@ export class AppComponent {
   home(){
     this.router.navigate(['/']);
   }
+  
+  fastC0de(){
+    this.router.navigate(['/Fast-C0de']);
+  }
+  
+  contacto(){
+    this.router.navigate(['/Contacto']);
+  }
+  
   
   mostrarMenu(){
     const menu = document.getElementById('navbarSupportedContent') as HTMLInputElement
