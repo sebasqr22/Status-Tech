@@ -9,11 +9,13 @@ import {RouterModule, Routes} from "@angular/router";
 import { NotFoundComponent } from './not-found/not-found.component';
 import { FastC0deComponent } from './fast-c0de/fast-c0de.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { AgendamientoComponent } from './agendamiento/agendamiento.component';
 
 const appRoutes:Routes=[
   {path:'', component: HomeComponent},
   {path:'Fast-C0de', component: FastC0deComponent},
   {path:'Contacto', component: ContactoComponent},
+  {path:'Agendar', component: AgendamientoComponent},
   {path: '**', component:NotFoundComponent},
 ]
 
@@ -23,7 +25,8 @@ const appRoutes:Routes=[
     HomeComponent,
     NotFoundComponent,
     FastC0deComponent,
-    ContactoComponent
+    ContactoComponent,
+    AgendamientoComponent
   ],
   imports: [
     BrowserModule,
