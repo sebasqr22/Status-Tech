@@ -10,6 +10,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { FastC0deComponent } from './fast-c0de/fast-c0de.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { AgendamientoComponent } from './agendamiento/agendamiento.component';
+import {HttpClientModule} from "@angular/common/http";
 
 const appRoutes:Routes=[
   {path:'', component: HomeComponent},
@@ -33,6 +34,7 @@ const appRoutes:Routes=[
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
     FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
