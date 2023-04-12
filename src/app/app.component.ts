@@ -18,17 +18,17 @@ export class AppComponent {
   }
   
   fastC0de(){
-    this.router.navigate(['/Fast-C0de']);
+    this.router.navigate(['/fast_code']);
     this.viewportScroller.scrollToAnchor('top');
   }
   
   contacto(){
-    this.router.navigate(['/Contacto']);
+    this.router.navigate(['/contacto']);
     this.viewportScroller.scrollToAnchor('top');
   }
 
   agendar(){
-    this.router.navigate(['/Agendar']);
+    this.router.navigate(['/agendar']);
     this.viewportScroller.scrollToAnchor('top');
   }
   

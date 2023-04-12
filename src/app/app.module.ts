@@ -14,9 +14,9 @@ import {HttpClientModule} from "@angular/common/http";
 
 const appRoutes:Routes=[
   {path:'', component: HomeComponent},
-  {path:'Fast-C0de', component: FastC0deComponent},
-  {path:'Contacto', component: ContactoComponent},
-  {path:'Agendar', component: AgendamientoComponent},
+  {path:'fast_code', component: FastC0deComponent},
+  {path:'contacto', component: ContactoComponent},
+  {path:'agendar', component: AgendamientoComponent},
   {path: '**', component:NotFoundComponent},
 ]
 

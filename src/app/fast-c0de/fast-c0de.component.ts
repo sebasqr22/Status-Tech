@@ -10,7 +10,7 @@ import { ViewportScroller } from '@angular/common';
 export class FastC0deComponent {
   constructor(private router:Router, private viewportScroller: ViewportScroller) {}
   agendar(){
-    this.router.navigate(['/Agendar']);
+    this.router.navigate(['/agendar']);
     this.viewportScroller.scrollToAnchor('top');
   }
 }

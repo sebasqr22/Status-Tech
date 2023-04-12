@@ -16,7 +16,7 @@ export class AgendamientoComponent {
       this.http.post(this.url, formData).subscribe(response => {
         if(JSON.parse(JSON.stringify(response)).ok == true){
           alert("Información enviada correctamente!")
-          this.router.navigate(['/Fast-C0de']);
+          this.router.navigate(['/fast_code']);
           this.viewportScroller.scrollToAnchor('top');
         }
         else{
